@@ -1,0 +1,15 @@
+filename	acq_time
+func/sub-18_ses-2_task-satellite_run-01_bold.nii.gz	1877-07-12T09:45:57
+func/sub-18_ses-2_task-satellite_run-02_bold.nii.gz	1877-07-12T09:52:48
+func/sub-18_ses-2_task-satellite_run-03_bold.nii.gz	1877-07-12T09:59:40
+func/sub-18_ses-2_task-satellite_run-04_bold.nii.gz	1877-07-12T10:06:29
+func/sub-18_ses-2_task-satellite_run-05_bold.nii.gz	1877-07-12T10:13:21
+func/sub-18_ses-2_task-satellite_run-06_bold.nii.gz	1877-07-12T10:20:44
+func/sub-18_ses-2_task-satellite_run-07_bold.nii.gz	1877-07-12T10:27:35
+func/sub-18_ses-2_task-satellite_run-08_bold.nii.gz	1877-07-12T10:34:25
+func/sub-18_ses-2_task-rest_run-01_bold.nii.gz	1877-07-12T10:41:24
+fmap/sub-18_ses-2_phasediff.nii.gz	1877-07-12T09:42:12
+fmap/sub-18_ses-2_magnitude1.nii.gz	1877-07-12T09:42:11
+fmap/sub-18_ses-2_magnitude2.nii.gz	1877-08-07T09:42:12
+anat/sub-18_ses-2_FLASH.nii.gz	1877-07-12T09:37:41
+anat/sub-18_ses-2_T1w.nii.gz	1877-07-12T09:29:26
