@@ -46,7 +46,7 @@ feature:	specific queried feature (v1-v5 refer to the five visual parts)
 accuracy:	whether feature filled in correctly
 
 
-Stimulus presentation and behavior files with data from inside scanner (func/sub-*_ses-*_task-satellite_run-*_events.tsv):
+Stimulus presentation and behavior files with data from inside scanner (func/sub-\*_ses-\*_task-satellite_run-\*_events.tsv):
 
 item:		identifier for each satellite, with indication of category membership
 onset:		onset time in seconds relative to beginning of run
