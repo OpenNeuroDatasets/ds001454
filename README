@@ -22,9 +22,13 @@ Next, we collected a 6.5-min functional rest run where participants were instruc
 
 Procedure: Session 2. In Session 2, participants did the same scan procedure, with images presented in a different random order. Then they got out of the scanner and completed the same test phase as in the first session, with identical trials presented in a different random order.
 
+
 Participants in the Sleep group (n=12) began the first session around 7pm and the second session around 9am, and participants in the Wake group (n=12) began the first session around 9:30am and the second session around 10pm.
 
+
 fMRI data acquisition. Data were acquired using a 3T Siemens Skyra scanner with a volume head coil. In each session, we collected 9 functional runs with a T2*-weighted gradient-echo EPI sequence (36 oblique axial slices: 3×3 mm inplane, 3 mm thickness; TE=30 ms; TR=2000 ms; FA=71°; matrix=64×64). Each run contained 195 volumes. We collected two anatomical runs for registration across subjects to standard space: a coplanar T1-weighted FLASH sequence and a high-resolution 3D T1-weighted MPRAGE sequence. An in-plane magnetic field map image was also acquired for EPI undistortion.
+
+
 
 Group membership:
 
@@ -32,21 +36,21 @@ Sleep: sub-01, sub-04, sub-07, sub-08, sub-10, sub-12, sub-15, sub-17, sub-18, s
 Wake: sub-02, sub-03, sub-05, sub-06, sub-09, sub-11, sub-13, sub-14, sub-16, sub-19, sub-20, sub-23
 
 
-Behavioral memory test files with data from outside scanner (beh/sub-*_ses-*_beh.tsv):
+Behavioral memory test files with data from outside scanner (beh/sub-*_ses-*_task-test_beh.tsv):
 
-test:	 first or second test
-trial:	 trial number
-item: identifier for each satellite, with indication of category membership
-querytype: feature queried is unique, shared, or belonging to novel satellite
+trial:		trial number
+item:		identifier for each satellite, with indication of category membership
+querytype:	feature queried is unique, shared, or belonging to novel satellite
 subtype:	feature queried is verbal (name) or visual (part)
-feature: specific queried feature (v1-v5 refer to the five visual parts)
-accuracy: whether feature filled in correctly
+feature:	specific queried feature (v1-v5 refer to the five visual parts)
+accuracy:	whether feature filled in correctly
 
-Stimulus presentation and behavior files with data from inside scanner (func/sub-*_ses-*_run-*_task-satellite_run-*_events.tsv):
 
-item: identifier for each satellite, with indication of category membership
-onset: onset time in seconds relative to beginning of run
-duration: duration of stimulus (always 3 seconds)
-repeat: whether the current item is a repeat of the previous item
-accuracy: whether the participant correctly reported the item as a repeat or not a repeat (NaN if no response)
-reaction_time: time between stimulus onset and response in seconds (NaN if no response)
+Stimulus presentation and behavior files with data from inside scanner (func/sub-*_ses-*_task-satellite_run-*_events.tsv):
+
+item:		identifier for each satellite, with indication of category membership
+onset:		onset time in seconds relative to beginning of run
+duration:	duration of stimulus (always 3 seconds)
+repeat:		whether the current item is a repeat of the previous item
+accuracy:	whether the participant correctly reported the item as a repeat or not a repeat (NaN if no response)
+reaction_time:	time between stimulus onset and response in seconds (NaN if no response)
