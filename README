@@ -39,7 +39,7 @@ Behavioral memory test files with data from outside scanner (beh/sub-\*_ses-\*_t
 
 *trial*: trial number
 *item*: identifier for each satellite, with indication of category membership
-*querytype*:  feature queried is unique, shared, or belonging to novel satellite
+*querytype*: feature queried is unique, shared, or belonging to novel satellite
 *subtype*: feature queried is verbal (name) or visual (part)
 *feature*: specific queried feature (v1-v5 refer to the five visual parts)
 *accuracy*: whether feature filled in correctly
