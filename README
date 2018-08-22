@@ -47,9 +47,9 @@ Behavioral memory test files with data from outside scanner (beh/sub-\*_ses-\*_t
 
 Stimulus presentation and behavior files with data from inside scanner (func/sub-\*_ses-\*_task-satellite_run-\*_events.tsv):
 
-*item*: identifier for each satellite, with indication of category membership
 *onset*: onset time in seconds relative to beginning of run
 *duration*: duration of stimulus (always 3 seconds)
+*item*: identifier for each satellite, with indication of category membership
 *repeat*: whether the current item is a repeat of the previous item
-*accuracy*: whether the participant correctly reported the item as a repeat or not a repeat (NaN if no response)
-*reaction_time*: time between stimulus onset and response in seconds (NaN if no response)
+*accuracy*: whether the participant correctly reported the item as a repeat or not a repeat (n/a if no response)
+*reaction_time*: time between stimulus onset and response in seconds (n/a if no response)
