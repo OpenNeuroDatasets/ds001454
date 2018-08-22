@@ -37,19 +37,19 @@ Wake: sub-02, sub-03, sub-05, sub-06, sub-09, sub-11, sub-13, sub-14, sub-16, su
 
 Behavioral memory test files with data from outside scanner (beh/sub-\*_ses-\*_task-test_beh.tsv):
 
-trial: trial number
-item: identifier for each satellite, with indication of category membership
-querytype:  feature queried is unique, shared, or belonging to novel satellite
-subtype: feature queried is verbal (name) or visual (part)
-feature: specific queried feature (v1-v5 refer to the five visual parts)
-accuracy: whether feature filled in correctly
+*trial*: trial number
+*item*: identifier for each satellite, with indication of category membership
+*querytype*:  feature queried is unique, shared, or belonging to novel satellite
+*subtype*: feature queried is verbal (name) or visual (part)
+*feature*: specific queried feature (v1-v5 refer to the five visual parts)
+*accuracy*: whether feature filled in correctly
 
 
 Stimulus presentation and behavior files with data from inside scanner (func/sub-\*_ses-\*_task-satellite_run-\*_events.tsv):
 
-item: identifier for each satellite, with indication of category membership
-onset: onset time in seconds relative to beginning of run
-duration: duration of stimulus (always 3 seconds)
-repeat: whether the current item is a repeat of the previous item
-accuracy: whether the participant correctly reported the item as a repeat or not a repeat (NaN if no response)
-reaction_time: time between stimulus onset and response in seconds (NaN if no response)
+*item*: identifier for each satellite, with indication of category membership
+*onset*: onset time in seconds relative to beginning of run
+*duration*: duration of stimulus (always 3 seconds)
+*repeat*: whether the current item is a repeat of the previous item
+*accuracy*: whether the participant correctly reported the item as a repeat or not a repeat (NaN if no response)
+*reaction_time*: time between stimulus onset and response in seconds (NaN if no response)
