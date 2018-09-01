@@ -57,9 +57,9 @@ onset	duration	item	repeat	accuracy	reaction_time
 322	3	beta5	0	1	1.752
 328	3	alpha3	0	1	0.68809
 332	3	gamma3	0	1	0.5199
-336	3	gamma3	1	NaN	NaN
+336	3	gamma3	1	n/a	n/a
 344	3	alpha1	0	1	0.83204
 350	3	gamma2	0	1	1.2243
 356	3	gamma4	0	1	0.55952
 362	3	gamma1	0	1	1.4958
-366	3	beta2	0	NaN	NaN
+366	3	beta2	0	n/a	n/a
