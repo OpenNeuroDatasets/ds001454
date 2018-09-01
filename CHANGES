@@ -1,3 +1,7 @@
+1.2.0	2018-09-01
+
+	- acq time fixes
+
 1.2.0	2018-08-30
 
 	- fixed timestamps in _scans.tsv files
