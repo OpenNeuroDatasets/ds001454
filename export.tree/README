@@ -1,0 +1,55 @@
+24 participants learned the features of 15 novel “satellite” objects organized into three classes. Each satellite has a “class” name (Alpha, Beta, or Gamma) shared with other members of the same category, a unique “code” name, and five visual parts. One of the learned satellites in each category is the prototype, which contains all the prototypical parts for that category. Each of the other satellites has one part deviating from the prototype. Thus, each non-prototype shares 4 features with the prototype and 3 features with other non-prototypes from the same category. Exemplars from different categories do not share any features. Each satellite has shared features: the class name and the parts shared among members of the category, and unique features: the code name and the part unique to that satellite (except for the prototype, which has no unique parts). Satellites were constructed randomly for each participant, constrained by this category structure.
+
+
+Procedure: Session 1 Training. Participants learned about the satellites in two phases. In the first phase, which lasted 15 minutes on average, satellites were introduced one by one, with each of the 15 satellites shown once. For each satellite, the class and code name were displayed, followed by the image of the satellite. A box highlighted each of the five visual features on the satellite image one by one, to encourage participants to attend to each feature. Participants were then asked to recall the class and code names by clicking on one of three options given for each name. Next, participants used a point-and-click interface to try to reconstruct the satellite image from scratch. Icons representing the five part types were displayed on the right hand side of the screen, and when an icon was clicked, all the possible versions of that part were displayed in a row on the bottom of the screen. The participant could then click on one of the part versions on the bottom to add it to the satellite in the center of the screen. If the participant was too slow at this task (took longer than 15 s), or reconstructed the satellite incorrectly, a feedback screen would appear displaying the correct features.
+
+
+In the second phase of training, which lasted 32 minutes on average, participants were shown a satellite with one feature missing, which could be one of the five visual features, the code name, or the class name (code and class name buttons were displayed along with the part icons on the right hand side of the screen, and when selected, displayed the corresponding name options in a row on the bottom). Using the same point-and-click interface, participants chose a feature (out of all possible) to complete the satellite. If they chose the correct feature, they were told it was correct, and could move on to the next trial. If they chose an incorrect feature, they were shown the correct feature, and had to repeat the trial until they chose the correct feature. 
+
+
+Remembering the shared properties of the satellites is easier than remembering the unique properties, as the shared properties are reinforced across study of all the satellites in the same class. The task was titrated in pilot testing to ensure that, at the end of training, participants performed equivalently at retrieving shared and unique properties of the satellites. To accomplish this, unique features were queried 24 times more frequently than shared features. This phase of training continued until the participant reached a criterion of 66% of trials correct on a block of 32 trials, or until 60 minutes had passed. Only one participant did not reach the criterion, but was very close, with an accuracy of 63%. 
+
+
+Procedure: Session 1 Test. Immediately after training, participants were tested by again filling in missing features of the satellites, now without feedback. The test phase had 39 trials, with two missing features per trial. The test phase took 10 minutes on average. Each satellite appeared twice in the test phase: once with its code name and its class name or one shared part tested, and once with two shared parts or one unique part and one shared part tested. The remaining 9 trials tested generalization to novel satellites. Novel satellites were members of the trained categories but had one novel feature. The queried feature for novel items was always a shared part (class name or shared visual feature). Test trials were presented in a random order.
+
+
+Procedure: fMRI scanning. After completion of the first session test phase, participants were scanned while viewing the satellite images (without names) for 52 minutes. Satellites subtended up to 19 degrees of visual angle on the scanner projection. There were 8 runs, lasting 6.5 mins each, with self-paced breaks between runs. In each run, each of the 15 images was presented four times in pseudo-random order, such that each satellite appeared in the first, second, third, and fourth quarter of the trials. Four trials in each run were randomly chosen to be duplicated, such that these satellites were shown twice in immediate succession. These served as rare (4 trials out of 64) targets for a one-back task that subjects performed while viewing the satellites, to encourage maintenance of attention. Subjects pressed one key on a keypad to indicate that the current satellite was not an exact repetition of the previous satellite, and a different key to indicate that it was a repetition. Keys corresponded to index and middle fingers of the right hand, with key assignment for repetition and no-repetition counterbalanced across subjects. Feedback for responses at each trial was provided as a green or red dot at fixation. Each satellite was presented for 3s with a jittered interstimulus interval (40% 1s, 40% 3s, 20% 5s), to facilitate modeling of the response to individual items.
+
+
+Next, we collected a 6.5-min functional rest run where participants were instructed to relax and watch the fixation dot on the screen, emphasizing that they should keep their eyes open. 
+
+
+Procedure: Session 2. In Session 2, participants did the same scan procedure, with images presented in a different random order. Then they got out of the scanner and completed the same test phase as in the first session, with identical trials presented in a different random order.
+
+
+Participants in the Sleep group (n=12) began the first session around 7pm and the second session around 9am, and participants in the Wake group (n=12) began the first session around 9:30am and the second session around 10pm.
+
+
+fMRI data acquisition. Data were acquired using a 3T Siemens Skyra scanner with a volume head coil. In each session, we collected 9 functional runs with a T2*-weighted gradient-echo EPI sequence (36 oblique axial slices: 3×3 mm inplane, 3 mm thickness; TE=30 ms; TR=2000 ms; FA=71°; matrix=64×64). Each run contained 195 volumes. We collected two anatomical runs for registration across subjects to standard space: a coplanar T1-weighted FLASH sequence and a high-resolution 3D T1-weighted MPRAGE sequence. An in-plane magnetic field map image was also acquired for EPI undistortion.
+
+
+
+Group membership:
+
+Sleep: sub-01, sub-04, sub-07, sub-08, sub-10, sub-12, sub-15, sub-17, sub-18, sub-21, sub-22, sub-24
+Wake: sub-02, sub-03, sub-05, sub-06, sub-09, sub-11, sub-13, sub-14, sub-16, sub-19, sub-20, sub-23
+
+
+Behavioral memory test files with data from outside scanner (beh/sub-\*_ses-\*_task-test_beh.tsv):
+
+*trial*: trial number
+*item*: identifier for each satellite, with indication of category membership
+*querytype*: feature queried is unique, shared, or belonging to novel satellite
+*subtype*: feature queried is verbal (name) or visual (part)
+*feature*: specific queried feature (v1-v5 refer to the five visual parts)
+*accuracy*: whether feature filled in correctly
+
+
+Stimulus presentation and behavior files with data from inside scanner (func/sub-\*_ses-\*_task-satellite_run-\*_events.tsv):
+
+*onset*: onset time in seconds relative to beginning of run
+*duration*: duration of stimulus (always 3 seconds)
+*item*: identifier for each satellite, with indication of category membership
+*repeat*: whether the current item is a repeat of the previous item
+*accuracy*: whether the participant correctly reported the item as a repeat or not a repeat (n/a if no response)
+*reaction_time*: time between stimulus onset and response in seconds (n/a if no response)
